@@ -24,6 +24,7 @@
     <maven.compiler.release>9</maven.compiler.release>
   </properties>
 
+  <dependencyManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -31,7 +32,13 @@
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>5.1.2</version>
+    </dependency>
   </dependencies>
+  </dependencyManagement>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
