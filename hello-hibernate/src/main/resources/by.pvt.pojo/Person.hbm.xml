@@ -10,6 +10,24 @@
         <property name="dateOfBirth" type="timestamp"/>
         <property name="age"/>
         <property name="secondName"/>
+        <component name="address" class="Address">
+                <property name="city"/>
+                <property name="street"/>
+                <property name="houseNumber"/>
+                <property name="appartmentNumber"/>
+
+        </component>
+
+        <subclass name="Student">
+                <property name="courseYear"/>
+                <property name="university"/>
+                <property name="faculty"/>
+        </subclass>
+        <subclass name="Worker">
+                <property name="companyName"/>
+                <property name="salary"/>
+                <property name="position"/>
+        </subclass>
 
 </class>
 

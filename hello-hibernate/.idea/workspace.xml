@@ -3,7 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="16dc140f-c696-4452-b31a-7c28f30c7a75" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/dao/DaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dao/DaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/util/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/util/HibernateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/by.pvt.pojo/Person.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/by.pvt.pojo/Person.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/pvt/dao/DaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/pvt/dao/DaoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lessonstasks/hibernate_annotations/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lessonstasks/hibernate_annotations/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lessonstasks/hibernate_annotations/src/main/java/by/it/loader/PersonLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lessonstasks/hibernate_annotations/src/main/java/by/it/loader/PersonLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lessonstasks/hibernate_annotations/src/main/java/by/it/pojos/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lessonstasks/hibernate_annotations/src/main/java/by/it/pojos/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lessonstasks/hibernate_annotations/src/main/java/by/it/util/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lessonstasks/hibernate_annotations/src/main/java/by/it/util/HibernateUtil.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,90 +40,57 @@
     <session id="-492739243">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.54" value="1" />
+          <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.60" value="1" />
+          <entry key="project.open.time.62" value="2" />
           <entry key="project.open.time.64" value="1" />
           <entry key="project.open.time.89" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="0-SNAPSHOT" value="2" />
           <entry key="class" value="6" />
-          <entry key="java" value="7" />
+          <entry key="java" value="18" />
           <entry key="sql" value="1" />
-          <entry key="xml" value="4" />
+          <entry key="xml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="6" />
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="18" />
           <entry key="Scratch" value="1" />
           <entry key="UML" value="2" />
-          <entry key="XML" value="4" />
+          <entry key="XML" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2998" />
+          <entry key="java" value="6022" />
           <entry key="txt" value="8" />
-          <entry key="xml" value="1205" />
+          <entry key="xml" value="1583" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2998" />
+          <entry key="JAVA" value="6022" />
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="XML" value="1205" />
+          <entry key="XML" value="1583" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="69" column="27" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/by.pvt.pojo/Person.hbm.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/pojo/PersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -125,46 +101,139 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/util/HibernateUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="323">
+              <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/by.pvt.pojo/Person.hbm.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/Company.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/dao/DaoImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/dao/CompanyDaoImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="46" column="47" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/by.pvt.pojo/Company.hbm.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/Address.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#788#789#0" expanded="true" />
+                <element signature="e#818#819#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1343">
+              <caret line="108" column="28" selection-start-line="101" selection-start-column="19" selection-end-line="108" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+              <folding>
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/Worker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+              <folding>
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/dao/DaoImplTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/pojo/WorkerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+            <state relative-caret-position="357">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/util/HibernateUtilTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/by.pvt.pojo/Address.hbm.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="30" column="71" selection-start-line="30" selection-start-column="71" selection-end-line="30" selection-end-column="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -186,17 +255,27 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/by.pvt.pojo/Person.hbn.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/by.pvt.pojo/Person.hbm.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/test/java/by/pvt/pojo/PersonTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/pvt/util/HibernateUtilTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/pvt/util/HibernateUtil.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/by/pvt/dao/Dao.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/pvt/dao/DaoTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/by/pvt/dao/DaoImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/pvt/util/HibernateUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Adress.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/by.pvt.pojo/Address.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Person.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/pvt/pojo/AddressTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/pvt/dao/DaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/pvt/dao/DaoImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Company.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Address.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/by.pvt.pojo/Company.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/by/pvt/dao/CompanyDaoImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Worker.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/by.pvt.pojo/Person.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/by/pvt/pojo/WorkerTest.java" />
       </list>
     </option>
   </component>
@@ -250,10 +329,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1296" />
-    <option name="height" value="700" />
+    <option name="x" value="632" />
+    <option name="width" value="736" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -391,6 +469,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -422,6 +501,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
               <item name="pvt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -430,8 +518,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
               <item name="pvt" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hello-hibernate" type="b2602c69:ProjectViewProjectNode" />
@@ -467,149 +556,36 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
               <item name="pvt" type="462c0819:PsiDirectoryNode" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
-          <expand>
             <path>
-              <item name="hello-hibernate" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="hello-hibernate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="hello-hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="pvt" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="hello-hibernate" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="hello-hibernate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="hello-hibernate" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="hello-hibernate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="hello-hibernate" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="hello-hibernate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="hello-hibernate" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="hello-hibernate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="by" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="hello-hibernate" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="hello-hibernate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="by" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="pvt" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="hello-hibernate" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="hello-hibernate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="by" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="pvt" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="pojo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <subPane subId="Scope 'Default Changelist'; set:Default Changelist; class com.intellij.packageDependencies.ChangeListScope">
-          <expand>
-            <path>
-              <item name="hello-hibernate" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="hello-hibernate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <subPane subId="Scope 'Changed Files'; set:Changed Files; ALL; class com.intellij.packageDependencies.ChangeListScope">
-          <expand>
-            <path>
-              <item name="hello-hibernate" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="hello-hibernate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
-          <expand>
-            <path>
-              <item name="hello-hibernate" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="hello-hibernate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="hello-hibernate" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="hello-hibernate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="hello-hibernate" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="hello-hibernate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="hello-hibernate" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="hello-hibernate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="hello-hibernate" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="hello-hibernate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="hello-hibernate" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="hello-hibernate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="hello-hibernate" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="hello-hibernate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="hello-hibernate" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="hello-hibernate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="hello-hibernate" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="hello-hibernate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="hello-hibernate" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="hello-hibernate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="hello-hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="pvt" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -621,7 +597,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543760704135" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544251598871" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
@@ -635,9 +611,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="by.pvt.pojo" />
       <recent name="by.pvt.dao" />
       <recent name="by.pvt.util" />
-      <recent name="by.pvt.pojo" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -655,24 +631,99 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CompanyDaoImplTest.delete">
+    <configuration name="CompanyDaoImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hello-hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.pvt.pojo.*" />
+          <option name="PATTERN" value="by.pvt.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="by.pvt.pojo" />
-      <option name="MAIN_CLASS_NAME" value="by.pvt.pojo.PersonTest" />
+      <option name="PACKAGE_NAME" value="by.pvt.dao" />
+      <option name="MAIN_CLASS_NAME" value="by.pvt.dao.CompanyDaoImplTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CompanyDaoImplTest.SaveorUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.pvt.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.pvt.dao" />
+      <option name="MAIN_CLASS_NAME" value="by.pvt.dao.CompanyDaoImplTest" />
+      <option name="METHOD_NAME" value="SaveorUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompanyDaoImplTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.pvt.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.pvt.dao" />
+      <option name="MAIN_CLASS_NAME" value="by.pvt.dao.CompanyDaoImplTest" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompanyDaoImplTest.updateAddress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.pvt.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.pvt.dao" />
+      <option name="MAIN_CLASS_NAME" value="by.pvt.dao.CompanyDaoImplTest" />
+      <option name="METHOD_NAME" value="updateAddress" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DaoImplTest.savePersonWithAdress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.pvt.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.pvt.dao" />
+      <option name="MAIN_CLASS_NAME" value="by.pvt.dao.DaoImplTest" />
+      <option name="METHOD_NAME" value="savePersonWithAdress" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.DaoImplTest.savePersonWithAdress" />
+      <item itemvalue="JUnit.CompanyDaoImplTest" />
+      <item itemvalue="JUnit.CompanyDaoImplTest.SaveorUpdate" />
+      <item itemvalue="JUnit.CompanyDaoImplTest.updateAddress" />
+      <item itemvalue="JUnit.CompanyDaoImplTest.delete" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PersonTest" />
+        <item itemvalue="JUnit.CompanyDaoImplTest.delete" />
+        <item itemvalue="JUnit.CompanyDaoImplTest.SaveorUpdate" />
+        <item itemvalue="JUnit.CompanyDaoImplTest" />
+        <item itemvalue="JUnit.CompanyDaoImplTest.updateAddress" />
+        <item itemvalue="JUnit.DaoImplTest.savePersonWithAdress" />
       </list>
     </recent_temporary>
   </component>
@@ -691,48 +742,56 @@
       <workItem from="1543589191847" duration="2770000" />
       <workItem from="1543646447392" duration="8127000" />
       <workItem from="1543756420195" duration="2595000" />
+      <workItem from="1543938524760" duration="5502000" />
+      <workItem from="1543944059398" duration="11000" />
+      <workItem from="1543944669831" duration="3788000" />
+      <workItem from="1544012405277" duration="6824000" />
+      <workItem from="1544095648927" duration="1218000" />
+      <workItem from="1544109552814" duration="8663000" />
+      <workItem from="1544250535046" duration="1397000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PersonTest - 2018.11.29 at 20h 26m 57s.xml">
-      <configuration name="PersonTest" configurationId="JUnit" />
+    <history-entry file="CompanyDaoImplTest_SaveorUpdate - 2018.12.06 at 21h 29m 20s.xml">
+      <configuration name="CompanyDaoImplTest.SaveorUpdate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonTest - 2018.11.29 at 20h 28m 02s.xml">
-      <configuration name="PersonTest" configurationId="JUnit" />
+    <history-entry file="CompanyDaoImplTest_delete - 2018.12.06 at 21h 29m 37s.xml">
+      <configuration name="CompanyDaoImplTest.delete" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonTest - 2018.11.29 at 20h 28m 43s.xml">
-      <configuration name="PersonTest" configurationId="JUnit" />
+    <history-entry file="CompanyDaoImplTest_delete - 2018.12.06 at 21h 30m 08s.xml">
+      <configuration name="CompanyDaoImplTest.delete" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonTest - 2018.11.29 at 20h 29m 33s.xml">
-      <configuration name="PersonTest" configurationId="JUnit" />
+    <history-entry file="CompanyDaoImplTest_delete - 2018.12.06 at 21h 30m 37s.xml">
+      <configuration name="CompanyDaoImplTest.delete" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonTest - 2018.11.29 at 20h 30m 42s.xml">
-      <configuration name="PersonTest" configurationId="JUnit" />
+    <history-entry file="CompanyDaoImplTest_delete - 2018.12.06 at 21h 31m 44s.xml">
+      <configuration name="CompanyDaoImplTest.delete" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonTest - 2018.11.29 at 20h 31m 35s.xml">
-      <configuration name="PersonTest" configurationId="JUnit" />
+    <history-entry file="CompanyDaoImplTest_delete - 2018.12.06 at 21h 32m 07s.xml">
+      <configuration name="CompanyDaoImplTest.delete" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonTest - 2018.11.29 at 20h 34m 09s.xml">
-      <configuration name="PersonTest" configurationId="JUnit" />
+    <history-entry file="CompanyDaoImplTest_delete - 2018.12.06 at 22h 38m 53s.xml">
+      <configuration name="CompanyDaoImplTest.delete" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonTest - 2018.11.29 at 20h 43m 56s.xml">
-      <configuration name="PersonTest" configurationId="JUnit" />
+    <history-entry file="CompanyDaoImplTest_delete - 2018.12.06 at 22h 39m 09s.xml">
+      <configuration name="CompanyDaoImplTest.delete" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonTest - 2018.11.29 at 20h 45m 43s.xml">
-      <configuration name="PersonTest" configurationId="JUnit" />
+    <history-entry file="CompanyDaoImplTest_delete - 2018.12.06 at 22h 39m 26s.xml">
+      <configuration name="CompanyDaoImplTest.delete" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonTest - 2018.11.29 at 21h 09m 38s.xml">
-      <configuration name="PersonTest" configurationId="JUnit" />
+    <history-entry file="CompanyDaoImplTest_delete - 2018.12.06 at 22h 39m 44s.xml">
+      <configuration name="CompanyDaoImplTest.delete" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31579000" />
+    <option name="totallyTimeSpent" value="58982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49846154" visible="true" weight="0.22995462" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49846154" visible="true" weight="0.17170954" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" sideWeight="0.50153846" side_tool="true" weight="0.22390318" />
       <window_info id="Designer" order="3" />
@@ -743,14 +802,14 @@
       <window_info id="Learn" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7723077" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4523077" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3276923" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32923076" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3276923" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" weight="0.32923076" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
@@ -759,15 +818,15 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.1482602" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.14750378" />
       <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49846154" visible="true" weight="0.17170954" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Persistence" order="2" side_tool="true" />
+      <window_info id="Persistence" order="2" sideWeight="0.50153846" side_tool="true" weight="0.22390318" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="UI Designer" order="5" />
@@ -776,23 +835,23 @@
       <window_info id="Learn" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.52307695" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.58153844" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32923076" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3276923" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3276923" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" weight="0.32923076" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" weight="0.32923076" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.25189108" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.14750378" />
       <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -896,34 +955,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/util/HibernateUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" column="71" selection-start-line="30" selection-start-column="71" selection-end-line="30" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
+        <state>
           <caret line="69" column="27" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/util/HibernateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/by.pvt.pojo/Person.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        <state relative-caret-position="510">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/dao/DaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/dao/DaoImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="139" column="63" selection-start-line="139" selection-start-column="63" selection-end-line="139" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/pojo/AddressTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -934,40 +1007,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/util/HibernateUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="323">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/util/HibernateUtilTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/by.pvt.pojo/Company.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="30" column="71" selection-start-line="30" selection-start-column="71" selection-end-line="30" selection-end-column="71" />
+        <state relative-caret-position="102">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/dao/DaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/by.pvt.pojo/Address.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="46" column="47" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
+        <state relative-caret-position="153">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="108" column="28" selection-start-line="101" selection-start-column="19" selection-end-line="108" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/dao/DaoImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/by.pvt.pojo/Person.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+        <state relative-caret-position="476">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/dao/CompanyDaoImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/pojo/WorkerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1023,12 +1175,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>hello-hibernate</last-edited>
+          <last-edited>Hibernate|hello-hibernate</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.23333333" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
