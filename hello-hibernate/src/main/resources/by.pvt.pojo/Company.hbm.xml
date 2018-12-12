@@ -23,6 +23,18 @@
             <property name="officeNumber"/>
         </component>
 
+        <joined-subclass name="Branch">
+            <key column="id"></key>
+            <property name="branchName"/>
+            <property name="branchDirector"/>
+        </joined-subclass>
+
+        <joined-subclass name="HeadQuarter">
+            <key column="id"></key>
+            <property name="derectorName"/>
+            <property name="bankAccount"/>
+        </joined-subclass>
+
     </class>
 
 

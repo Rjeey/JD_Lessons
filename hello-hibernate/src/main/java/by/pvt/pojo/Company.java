@@ -10,6 +10,8 @@ public class Company {
     private Address homeAddress;
     private Address legalAddress;
 
+
+
     public long getId() {
         return Id;
     }

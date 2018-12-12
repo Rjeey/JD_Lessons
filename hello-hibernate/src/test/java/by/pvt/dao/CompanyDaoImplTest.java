@@ -4,21 +4,26 @@ import by.pvt.pojo.Address;
 import by.pvt.pojo.Company;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.FixMethodOrder;
 import org.junit.Test;
+import org.junit.runners.MethodSorters;
+
 import static org.junit.Assert.*;
 
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class CompanyDaoImplTest {
 
-    DaoImpl<Company> companyDao = new DaoImpl<>(Company.class);
+    DaoImpl<Company> companyDao;
 
     @Before
     public void setUp(){
         companyDao = new DaoImpl<>(Company.class);
+        companyDao.isTestInstance = true;
 
     }
 
     @Test
-    public void  SaveorUpdate(){
+    public void step1_saveOrUpdate(){
         Company company = new Company();
         company.setCompanyName("Romashka");
         company.setSiteUrl("www.romashka.by");
@@ -38,10 +43,11 @@ public class CompanyDaoImplTest {
         assertEquals(company2, company);
         assertEquals(company2.getLegalAddress(), company.getLegalAddress());
 
+        System.out.println("Company ID: " + company2.getId());
     }
 
     @Test
-    public void updateAddress(){
+    public void step2_updateAddress(){
         Company company = companyDao.load(1L);
         company.getHomeAddress().setCity("Vitebsk");
         companyDao.saveOrUpdate(company);
@@ -50,13 +56,14 @@ public class CompanyDaoImplTest {
     }
 
     @Test
-    public void delete(){
+    public void step3_delete(){
         companyDao.delete(companyDao.load(1L).getId());
         assertNull(companyDao.find(1L));
     }
 
     @After
     public void tearDown(){
+        companyDao.isTestInstance = false;
         companyDao = null;
     }
 }

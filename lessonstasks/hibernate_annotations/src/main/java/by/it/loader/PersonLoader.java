@@ -15,5 +15,8 @@ public class PersonLoader {
         entityManager.persist(person2);
         entityManager.getTransaction().commit();
         HibernateUtil.close();
+
+
+
     }
 }

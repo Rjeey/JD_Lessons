@@ -18,17 +18,15 @@ public class DaoImplTest {
     @Before
     public void setUp() throws Exception {
         dao = new DaoImpl<>(Person.class);
+        dao.isTestInstance = true;
     }
 
-    @After
-    public void tearDown() throws Exception {
-        dao = null;
-    }
 
     @Test
     public void saveOrUpdate() {
 
-        assertNull(dao.saveOrUpdate(null));
+       // assertNull(dao.saveOrUpdate(null));
+
         assertNotNull(dao.saveOrUpdate(new Person()));
 
         Person person = new Person();
@@ -48,21 +46,19 @@ public class DaoImplTest {
         try {
             dao.load(null);
         } catch (Exception e) {
-            e.printStackTrace();
             assertEquals(e.getClass(), IllegalArgumentException.class);
         }
 
         try {
             dao.load("testID");
         } catch (Exception e) {
-            e.printStackTrace();
             assertEquals(e.getClass(), IllegalArgumentException.class);
         }
 
         Serializable id = dao.saveOrUpdate(new Person()).getId();
         Person loadedPerson = dao.load(id);
-        assertNotNull(dao.load(id));
         assertNotNull(loadedPerson);
+        assertNotNull(loadedPerson.getId());
         assertEquals(id, loadedPerson.getId());
     }
 
@@ -84,7 +80,7 @@ public class DaoImplTest {
         assertNotNull(person.getId());
         assertEquals(person.getName(), "Vasia");
 
-        System.out.println("contains(person):" + HibernateUtil.getInstance().getSession().contains(person));
+        System.out.println("contains(person):" + HibernateUtil.getInstance().getTestSession().contains(person));
         dao.updateName(person.getId(), "Petya");
         assertEquals(person.getName(), "Petya");
     }
@@ -100,11 +96,10 @@ public class DaoImplTest {
         assertEquals(person.getName(), "Vasia");
 
         // Throws exception, rollbacks transaction and closes session
-            dao.updateName(null, null);
-            System.out.println("contains(person): " + HibernateUtil.getInstance().getSession().contains(person));
+        dao.updateName(null, null);
 
 
-
+        System.out.println("contains(person): " + HibernateUtil.getInstance().getTestSession().contains(person));
         //person POJO is disconnected from session and we need reread it
         person = dao.load(person.getId());
         dao.updateName(person.getId(), "Petia");
@@ -125,11 +120,11 @@ public class DaoImplTest {
     }
 
     @Test
-    public void savePersonWithAdress() {
+    public void savePersonWithAddress() {
         Person person = new Person();
-        Address address = new Address("Lenina", "Minsk", "10", 213);
         person.setName("Ivan");
         person.setSecondName("Ivanov");
+        Address address = new Address("Lenina", "Minsk", "10", 213);
         person.setAddress(address);
 
         person = dao.saveOrUpdate(person);
@@ -141,4 +136,12 @@ public class DaoImplTest {
 
         System.out.println(person);
     }
+
+
+    @After
+    public void tearDown() throws Exception {
+        dao.isTestInstance = false;
+        dao = null;
+    }
+
 }

@@ -1,11 +1,8 @@
 package by.pvt.dao;
 
-import by.pvt.pojo.Address;
+
 import by.pvt.pojo.Person;
 import by.pvt.util.HibernateUtil;
-import javafx.css.CssParser;
-import org.hibernate.Hibernate;
-import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.jetbrains.annotations.NotNull;
@@ -13,9 +10,11 @@ import org.jetbrains.annotations.Nullable;
 
 import java.io.Serializable;
 
-public class DaoImpl <T> {
+public class DaoImpl<T> {
 
     private Class<T> persistentClass;
+
+    public static boolean isTestInstance;
 
     public DaoImpl(Class<T> type) {
         this.persistentClass = type;
@@ -25,47 +24,57 @@ public class DaoImpl <T> {
         return persistentClass;
     }
 
-    public T saveOrUpdate(T t){
-        Session session = HibernateUtil.getInstance().getSession();
+    private Session getSession() {
+        if (isTestInstance) {
+            return HibernateUtil.getInstance().getTestSession();
+        } else {
+            return HibernateUtil.getInstance().getSession();
+        }
+    }
+
+    public T saveOrUpdate(T t) {
+        Session session = getSession();
         Transaction transaction = null;
 
         try {
             transaction = session.beginTransaction();
             session.saveOrUpdate(t);
-           transaction.commit();
+            transaction.commit();
         } catch (Exception e) {
             e.printStackTrace();
-            if (transaction != null)
+            if (transaction != null) {
                 transaction.rollback();
+            }
 
         }
         return t;
     }
+
     @NotNull
-    public T load(Serializable id){
+    public T load(Serializable id) {
         if (id == null) throw new IllegalArgumentException("Persistant instance id must not be null");
-        Session session = HibernateUtil.getInstance().getSession();
+        Session session = getSession();
         Transaction transaction = session.beginTransaction();
         T t = null;
         try {
-            t = session.load(getPersistentClass(), id);
+            t = (T)session.load(getPersistentClass(), id);
             transaction.commit();
         } catch (Exception e) {
             e.printStackTrace();
             transaction.rollback();
             session.close();
         }
-        if (t ==  null) throw new IllegalStateException("Persistance instance doesn't exist");
+        if (t == null) throw new IllegalStateException("Persistance instance doesn't exist");
         return t;
     }
 
     @Nullable
-    public T find(Serializable id){
-        Session session = HibernateUtil.getInstance().getSession();
+    public T find(Serializable id) {
+        Session session = getSession();
         Transaction transaction = session.beginTransaction();
-        T t= null;
+        T t = null;
         try {
-            t = (T)session.get(getPersistentClass(),id);
+            t = (T)session.get(getPersistentClass(), id);
             transaction.commit();
         } catch (Exception e) {
             e.printStackTrace();
@@ -77,8 +86,8 @@ public class DaoImpl <T> {
     }
 
 
-    public void updateName(Serializable id, String name){
-        Session session =  HibernateUtil.getInstance().getSession();
+    public void updateName(Serializable id, String name) {
+        Session session = getSession();
         Transaction transaction = session.beginTransaction();
         try {
             Person person = (Person) session.get(getPersistentClass(), id);
@@ -93,8 +102,8 @@ public class DaoImpl <T> {
 
     }
 
-    public void delete(Serializable id){
-        Session session = HibernateUtil.getInstance().getSession();
+    public void delete(Serializable id) {
+        Session session = getSession();
         Transaction transaction = session.beginTransaction();
 
         try {
@@ -106,8 +115,5 @@ public class DaoImpl <T> {
             transaction.rollback();
             session.close();
         }
-
-
     }
-
 }

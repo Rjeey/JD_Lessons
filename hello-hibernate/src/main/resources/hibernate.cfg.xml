@@ -5,7 +5,7 @@
 <hibernate-configuration>
   <session-factory>
     <!-- Default property for JDBC connection-->
-    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/hello_test?createDatabaseIfNotExist=true&amp;useSSL=false</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/hello?createDatabaseIfNotExist=true&amp;useSSL=false</property>
     <property name="hibernate.connection.username">root</property>
     <property name="hibernate.connection.password">root</property>
     <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
@@ -13,11 +13,13 @@
     <property name="hibernate.show_sql">true</property>
 
     <!-- DB schema will be updated if needed -->
-     <property name="hbm2ddl.auto">update</property>
+     <property name="hbm2ddl.auto">create-drop</property>
 
-  <mapping resource="by.pvt.pojo/Person.hbm.xml"></mapping>
-  <mapping resource="by.pvt.pojo/Address.hbm.xml"></mapping>
-  <mapping resource="by.pvt.pojo/Company.hbm.xml"></mapping>
+  <mapping resource="by.pvt.pojo/Person.hbm.xml"/>
+  <mapping resource="by.pvt.pojo/Address.hbm.xml"/>
+  <mapping resource="by.pvt.pojo/Company.hbm.xml"/>
+  <mapping resource="by.pvt.pojo/User.hbm.xml"/>
+  <mapping resource="by.pvt.pojo/UserDetails.hbm.xml"/>
 
   </session-factory>
 </hibernate-configuration>
