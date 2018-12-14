@@ -1,5 +1,8 @@
 package by.pvt.pojo;
 
+import org.apache.commons.lang3.builder.EqualsBuilder;
+import org.apache.commons.lang3.builder.HashCodeBuilder;
+
 import java.util.Set;
 
 public class Department {
@@ -33,5 +36,24 @@ public class Department {
     }
 
 
+    @Override
+    public int hashCode() {
+        return new HashCodeBuilder()
+                .append(id)
+                .append(departmentName)
+                .append(employees)
+                .toHashCode();
+    }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (!(obj instanceof Department)) return false;
+        Department that = (Department) obj;
+        return new EqualsBuilder()
+                .append(this.id, that.id)
+                .append(this.departmentName, that.departmentName)
+                .append(this.employees, that.employees)
+                .isEquals();
+
+    }
 }

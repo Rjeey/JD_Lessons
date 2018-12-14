@@ -12,6 +12,7 @@ import org.junit.runners.MethodSorters;
 
 import java.util.Set;
 
+import static junit.framework.TestCase.assertFalse;
 import static junit.framework.TestCase.assertTrue;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
@@ -152,16 +153,21 @@ public class EmployeeDaoImplTest {
         employeeDao.saveOrUpdate(employee3);
 
 
-        employee.setDepartment(department);
-        department.setEmployees(Set.of(employee));
+        employee3.setDepartment(department);
+        department.setEmployees(Set.of(employee3));
 
+        employee.setDepartment(department2);
         employee2.setDepartment(department2);
-        employee3.setDepartment(department2);
-        department2.setEmployees(Set.of(employee2,employee3));
+        department2.setEmployees(Set.of(employee,employee2));
 
         employeeDao.saveOrUpdate(employee);
         employeeDao.saveOrUpdate(employee2);
         employeeDao.saveOrUpdate(employee3);
+
+        assertTrue(employeeDao.load(employee.getId()).getDepartment().getDepartmentName().equals("Department2"));
+        assertTrue(employeeDao.load(employee2.getId()).getDepartment().getDepartmentName().equals("Department2"));
+        assertTrue(employeeDao.load(employee3.getId()).getDepartment().getDepartmentName().equals("Department1"));
+
     }
 
     @Test
