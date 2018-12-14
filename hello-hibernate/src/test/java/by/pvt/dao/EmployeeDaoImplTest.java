@@ -13,6 +13,7 @@ import org.junit.runners.MethodSorters;
 import java.util.Set;
 
 import static junit.framework.TestCase.assertFalse;
+import static junit.framework.TestCase.assertNull;
 import static junit.framework.TestCase.assertTrue;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
