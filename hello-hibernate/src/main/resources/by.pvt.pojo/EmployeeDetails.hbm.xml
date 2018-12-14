@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC ""  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="by.pvt.pojo">
+    <class name="EmployeeDetails">
+        <id name="id">
+            <generator class="increment"/>
+        </id>
+        <property name="position"/>
+        <!--<component name="address">-->
+            <!--<property name="city"/>-->
+            <!--<property name="officeNumber"/>-->
+            <!--<property name="street"/>-->
+        <!--</component>-->
+        <many-to-one name="address" class="Address" unique="true" cascade="save-update" />
+        <one-to-one name="employee" class="Employee" foreign-key="employee_id" cascade="all"/>
+    </class>
+</hibernate-mapping>
