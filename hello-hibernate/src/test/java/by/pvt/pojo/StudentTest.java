@@ -1,13 +1,15 @@
 package by.pvt.pojo;
 
-import by.pvt.util.HibernateUtil;
-import org.hibernate.Session;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
-
 import static org.junit.Assert.*;
 
+import org.hibernate.Session;
+import org.junit.*;
+
+import by.pvt.util.HibernateUtil;
+
+/**
+ * @author alve
+ */
 public class StudentTest {
 
     Session session;
@@ -17,22 +19,30 @@ public class StudentTest {
         session = HibernateUtil.getInstance().getTestSession();
     }
 
+
     @Test
-    public void createStudent(){
+    public void createInstance() {
         Student student = new Student();
-        student.setName("Student");
-        student.setSecondName("Student2");
-        student.setFaculty("POIT");
+        student.setName("Shurik");
+        student.setUniversity("BSUIR");
+        student.setFaculty("KSIS");
         student.setCourseYear((short) 3);
 
+        try {
+            session.beginTransaction();
+            session.saveOrUpdate(student);
+            session.getTransaction().commit();
+            assertNotNull(student.getId());
+        } catch (Exception e) {
+            e.printStackTrace();
+            session.getTransaction().rollback();
+        }
 
     }
 
-
-
     @After
     public void tearDown() throws Exception {
-        if(session !=null && session.isOpen()){
+        if (session != null && session.isOpen()) {
             session.close();
             session = null;
         }

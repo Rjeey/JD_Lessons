@@ -1,42 +1,39 @@
 package by.pvt.pojo;
 
-import by.pvt.util.HibernateUtil;
-import org.hibernate.Session;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
-
 import static org.junit.Assert.*;
 
+import org.hibernate.Session;
+import org.junit.*;
+
+import by.pvt.util.HibernateUtil;
+
+/**
+ * @author alve
+ */
 public class EmployerTest {
+
     Session session;
 
     @Before
     public void setUp() throws Exception {
         session = HibernateUtil.getInstance().getTestSession();
-
     }
 
     @Test
-    public void CreateIstance(){
-        Employer e = new Employer();
+    public void createInstance() {
+        Employer employer = new Employer();
 
-        e.setName("One");
-        e.setCorporateForNumber("375462");
+        employer.setName("Ivan");
+        employer.setCorporatePhoneNumber("37529600100100");
 
-        try {
-            session.beginTransaction();
-            session.saveOrUpdate(e);
-            session.getTransaction().commit();
-            assertNotNull(e.getId());
-        } catch (Exception e1) {
-            e1.printStackTrace();
-            session.getTransaction().rollback();
-        }
+        session.beginTransaction();
+        session.saveOrUpdate(employer);
+        session.getTransaction().commit();
+        assertNotNull(employer);
     }
 
     @After
     public void tearDown() throws Exception {
-
+        session.close();
     }
 }

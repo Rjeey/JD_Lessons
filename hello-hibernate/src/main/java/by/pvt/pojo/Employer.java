@@ -1,10 +1,13 @@
 package by.pvt.pojo;
 
+/**
+ *
+ */
 public class Employer extends Person {
 
     private String companyTitle;
 
-    private String corporateForNumber;
+    private String corporatePhoneNumber;
 
     public String getCompanyTitle() {
         return companyTitle;
@@ -14,13 +17,11 @@ public class Employer extends Person {
         this.companyTitle = companyTitle;
     }
 
-    public String getCorporateForNumber() {
-        return corporateForNumber;
+    public String getCorporatePhoneNumber() {
+        return corporatePhoneNumber;
     }
 
-    public void setCorporateForNumber(String corporateForNumber) {
-        this.corporateForNumber = corporateForNumber;
+    public void setCorporatePhoneNumber(String corporatePhoneNumber) {
+        this.corporatePhoneNumber = corporatePhoneNumber;
     }
-
-
 }

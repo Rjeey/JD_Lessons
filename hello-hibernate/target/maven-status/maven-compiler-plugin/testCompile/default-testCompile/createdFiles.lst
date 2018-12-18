@@ -1,0 +1,16 @@
+by\pvt\dao\EmployeeDaoImplTest.class
+by\pvt\dao\MeetingDaoImplTest.class
+by\pvt\pojo\UserTest.class
+by\pvt\pojo\EmployeeTest.class
+by\pvt\pojo\StudentTest.class
+by\pvt\pojo\MeetingTest.class
+by\pvt\pojo\HeadquarterTest.class
+by\pvt\dao\UserDaoImplTest.class
+by\pvt\util\HibernateUtilTest.class
+by\pvt\pojo\AddressTest.class
+by\pvt\pojo\WorkerTest.class
+by\pvt\dao\CompanyDaoImplTest.class
+by\pvt\dao\DaoImplTest.class
+by\pvt\pojo\PersonTest.class
+by\pvt\pojo\EmployerTest.class
+by\pvt\pojo\BranchTest.class

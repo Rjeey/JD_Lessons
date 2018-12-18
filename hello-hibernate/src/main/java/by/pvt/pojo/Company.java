@@ -1,8 +1,11 @@
 package by.pvt.pojo;
 
+/**
+ *
+ */
 public class Company {
 
-    private long Id;
+    private long id;
 
     private String companyName;
     private String siteUrl;
@@ -10,14 +13,12 @@ public class Company {
     private Address homeAddress;
     private Address legalAddress;
 
-
-
     public long getId() {
-        return Id;
+        return id;
     }
 
     public void setId(long id) {
-        Id = id;
+        this.id = id;
     }
 
     public String getCompanyName() {

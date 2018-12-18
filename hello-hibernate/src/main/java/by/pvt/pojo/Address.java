@@ -2,9 +2,10 @@ package by.pvt.pojo;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
-import java.io.Serializable;
-
-public class Address  {
+/**
+ *
+ */
+public class Address {
 
     private long id;
 
@@ -13,22 +14,18 @@ public class Address  {
     private String street;
     private Integer zip;
     private String houseNumber;
-    private  int appartmentNumber;
+    private int appartmentNumber;
     private String officeNumber;
 
-
-    public Address(){
-
+    public Address() {
     }
 
-
-    public Address(String country, String city, String houseNumber, int appartmentNumber) {
-        this.country = country;
+    public Address(String city, String street, String houseNumber, int appartmentNumber) {
         this.city = city;
+        this.street = street;
         this.houseNumber = houseNumber;
         this.appartmentNumber = appartmentNumber;
     }
-
 
     public long getId() {
         return id;
@@ -94,16 +91,18 @@ public class Address  {
         this.officeNumber = officeNumber;
     }
 
-
     @Override
     public String toString() {
         return new ToStringBuilder(this)
-                .append("id: ",id)
-                .append("appartmentNumber: ",appartmentNumber)
-                .append("houseNumber: ",houseNumber)
-                .append("city: ",city)
-                .append("country: ",country)
-                .append("zip", zip)
+                .append("id", id)
+                .append("country", country)
+                .append("city", city)
+                .append("street", street)
+                .append("house", houseNumber)
+                .append("appartment", appartmentNumber)
+                .append("office", officeNumber)
+                .append("ZIP", zip)
                 .toString();
+
     }
 }

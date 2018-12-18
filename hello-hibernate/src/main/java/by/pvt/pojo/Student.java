@@ -1,6 +1,9 @@
 package by.pvt.pojo;
 
-public class Student extends Person{
+/**
+ *
+ */
+public class Student extends Person {
 
     private String university;
     private String faculty;

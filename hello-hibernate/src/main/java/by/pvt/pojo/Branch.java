@@ -1,5 +1,8 @@
 package by.pvt.pojo;
 
+/**
+ *
+ */
 public class Branch extends Company {
 
     private String branchName;

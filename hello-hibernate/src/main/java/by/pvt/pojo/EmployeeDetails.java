@@ -1,5 +1,8 @@
 package by.pvt.pojo;
 
+/**
+ *
+ */
 public class EmployeeDetails {
 
     private long id;

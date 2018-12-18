@@ -1,14 +1,17 @@
 package by.pvt.pojo;
 
-import by.pvt.util.HibernateUtil;
-import org.hibernate.Session;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
-
 import static org.junit.Assert.*;
 
+import org.hibernate.Session;
+import org.junit.*;
+
+import by.pvt.util.HibernateUtil;
+
+/**
+ * @author alve
+ */
 public class BranchTest {
+
     Session session;
 
     @Before
@@ -16,15 +19,13 @@ public class BranchTest {
         session = HibernateUtil.getInstance().getTestSession();
     }
 
-
     @Test
-    public void createInstance(){
+    public void createInstance() {
         Branch branch = new Branch();
-
-        branch.setCompanyName("OOO Gladious");
-        branch.setSiteUrl("www.gladiolus.by");
-        branch.setBranchName("GladiolusBranch");
-        branch.setBranchDirector("I am");
+        branch.setBranchDirector("Branch Director");
+        branch.setBranchName("Branch #24");
+        branch.setCompanyName("OOO Vasilek");
+        branch.setLegalAddress(new Address("minsk", "lenina1", "21", 1));
 
         try {
             session.beginTransaction();
@@ -38,9 +39,9 @@ public class BranchTest {
 
     }
 
-
     @After
     public void tearDown() throws Exception {
+
         if (session != null && session.isOpen()) {
             session.close();
             session = null;

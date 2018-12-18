@@ -1,6 +1,6 @@
 package by.it.loader;
 
-import by.it.pojos.Person;
+import by.it.pojo.Person;
 import by.it.util.HibernateUtil;
 
 import javax.persistence.EntityManager;

@@ -1,13 +1,16 @@
 package by.pvt.pojo;
 
-import org.apache.commons.lang3.builder.EqualsBuilder;
-import org.apache.commons.lang3.builder.HashCodeBuilder;
-import org.apache.commons.lang3.builder.ToStringBuilder;
-
 import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
+import org.apache.commons.lang3.builder.EqualsBuilder;
+import org.apache.commons.lang3.builder.HashCodeBuilder;
+import org.apache.commons.lang3.builder.ToStringBuilder;
+
+/**
+ *
+ */
 public class Person implements Serializable {
 
     private static final long serialVersionUID = -1781191857792849355L;
@@ -20,8 +23,6 @@ public class Person implements Serializable {
 
     private Address address;
 
-    private List<String> titles;
-
     public List<String> getTitles() {
         return titles;
     }
@@ -30,11 +31,13 @@ public class Person implements Serializable {
         this.titles = titles;
     }
 
+    private List<String> titles;
+
     public String getId() {
         return id;
     }
 
-    public void setId(String  id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -50,8 +53,8 @@ public class Person implements Serializable {
         return secondName;
     }
 
-    public void setSecondName(String secoundName) {
-        this.secondName = secoundName;
+    public void setSecondName(String secondName) {
+        this.secondName = secondName;
     }
 
     public int getAge() {
@@ -92,10 +95,8 @@ public class Person implements Serializable {
 
     @Override
     public boolean equals(Object obj) {
-
         if (!(obj instanceof Person)) return false;
         Person that = (Person)obj;
-
         return new EqualsBuilder()
                 .append(this.id, that.id)
                 .append(this.name, that.name)
@@ -109,11 +110,11 @@ public class Person implements Serializable {
     @Override
     public String toString() {
         return new ToStringBuilder(this)
-                .append("id: ",id)
-                .append("name: ",name)
-                .append("secondName: ",secondName)
-                .append("age: ",age)
-                .append("dateOfBirth: ",dateOfBirth)
+                .append("id", id)
+                .append("name", name)
+                .append("secondName", secondName)
+                .append("age", age)
+                .append("dateOfBirth", dateOfBirth)
                 .append("address", address)
                 .toString();
     }

@@ -1,15 +1,17 @@
 package by.pvt.pojo;
 
-import by.pvt.util.HibernateUtil;
-import org.hibernate.Session;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import static org.junit.Assert.*;
 
 import java.math.BigDecimal;
 
-import static org.junit.Assert.*;
+import org.hibernate.Session;
+import org.junit.*;
 
+import by.pvt.util.HibernateUtil;
+
+/**
+ * @author alve
+ */
 public class WorkerTest {
 
     Session session;
@@ -20,13 +22,12 @@ public class WorkerTest {
     }
 
     @Test
-    public void CreateWorker() {
+    public void createInstance() {
         Worker worker = new Worker();
-
         worker.setName("Worker");
         worker.setSecondName("Worker2");
         worker.setCompanyName("OOO Romashka");
-        worker.setSalary(BigDecimal.valueOf(12000.00));
+        worker.setSalary(BigDecimal.valueOf(1200.00));
 
         try {
             session.beginTransaction();
@@ -40,17 +41,11 @@ public class WorkerTest {
 
     }
 
-
-
     @After
     public void tearDown() throws Exception {
-        if(session !=null && session.isOpen()) {
+        if (session != null && session.isOpen()) {
             session.close();
             session = null;
         }
-
     }
-
-
-
 }

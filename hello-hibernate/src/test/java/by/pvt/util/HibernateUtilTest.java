@@ -1,12 +1,16 @@
 package by.pvt.util;
 
-import org.hibernate.Session;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
 import static org.junit.Assert.*;
 
+import org.hibernate.Session;
+import org.junit.*;
+
+/**
+ * @author alve
+ */
+
 public class HibernateUtilTest {
+
 
     @Before
     public void setUp() throws Exception {
@@ -19,16 +23,15 @@ public class HibernateUtilTest {
     @Test
     public void getInstance() {
         assertNotNull(HibernateUtil.getInstance());
-
     }
 
     @Test
     public void getSession() {
-        Session session = HibernateUtil.getInstance().getSession();
+        Session session = HibernateUtil.getInstance().getTestSession();
 
         assertNotNull(session);
-
-        assertEquals(session,HibernateUtil.getInstance().getSession());
-
+        assertEquals(session, HibernateUtil.getInstance().getTestSession());
     }
+
+
 }

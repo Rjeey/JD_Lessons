@@ -2,13 +2,16 @@ package by.pvt.pojo;
 
 import java.sql.Timestamp;
 
+/**
+ *
+ */
 public class UserDetails {
 
     private long id;
 
     private String password;
 
-    private Timestamp expireDate;
+    private Timestamp expiredDate;
 
     private int loginAttempts;
 
@@ -30,12 +33,12 @@ public class UserDetails {
         this.password = password;
     }
 
-    public Timestamp getExpireDate() {
-        return expireDate;
+    public Timestamp getExpiredDate() {
+        return expiredDate;
     }
 
-    public void setExpireDate(Timestamp expireDate) {
-        this.expireDate = expireDate;
+    public void setExpiredDate(Timestamp expiredDate) {
+        this.expiredDate = expiredDate;
     }
 
     public int getLoginAttempts() {

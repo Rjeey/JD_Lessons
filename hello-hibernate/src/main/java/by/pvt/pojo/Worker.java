@@ -2,6 +2,9 @@ package by.pvt.pojo;
 
 import java.math.BigDecimal;
 
+/**
+ *
+ */
 public class Worker extends Person {
 
     private String companyName;

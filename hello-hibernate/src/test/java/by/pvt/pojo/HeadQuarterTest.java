@@ -1,16 +1,18 @@
 package by.pvt.pojo;
 
-import by.pvt.util.HibernateUtil;
-import org.hibernate.Session;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
-
 import static org.junit.Assert.*;
 
-public class HeadQuarterTest {
-    Session session;
+import org.hibernate.Session;
+import org.junit.*;
 
+import by.pvt.util.HibernateUtil;
+
+/**
+ * @author alve
+ */
+public class HeadquarterTest {
+
+    Session session;
 
     @Before
     public void setUp() throws Exception {
@@ -18,19 +20,19 @@ public class HeadQuarterTest {
     }
 
     @Test
-    public void createInstance(){
-        HeadQuarter headQuarter = new HeadQuarter();
+    public void createInstance() {
+        Headquarter headquarter = new Headquarter();
 
-        headQuarter.setCompanyName("OOO Valsilek");
-        headQuarter.setSiteUrl("www.vasilek.by");
-        headQuarter.setBankAccount("123124sdgsdr13");
-        headQuarter.setDerectorName("I am");
+        headquarter.setCompanyName("OOO Vasilek");
+        headquarter.setSiteUrl("www.vasilek.by");
+        headquarter.setBankAccount("1212sdsd1212sde23223");
+        headquarter.setDirectorName("Director");
 
         try {
             session.beginTransaction();
-            session.saveOrUpdate(headQuarter);
+            session.saveOrUpdate(headquarter);
             session.getTransaction().commit();
-            assertNotNull(headQuarter.getId());
+            assertNotNull(headquarter.getId());
         } catch (Exception e) {
             e.printStackTrace();
             session.getTransaction().rollback();
@@ -38,11 +40,9 @@ public class HeadQuarterTest {
 
     }
 
-
-
     @After
     public void tearDown() throws Exception {
-        if(session !=null && session.isOpen()){
+        if (session != null && session.isOpen()) {
             session.close();
             session = null;
         }

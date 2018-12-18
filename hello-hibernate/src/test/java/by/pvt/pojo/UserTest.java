@@ -1,38 +1,36 @@
 package by.pvt.pojo;
 
-import by.pvt.util.HibernateUtil;
-import org.hibernate.Session;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import static junit.framework.TestCase.assertTrue;
 
 import java.sql.Timestamp;
-import java.util.Date;
 
-import static org.junit.Assert.*;
+import org.hibernate.Session;
+import org.junit.*;
 
+import by.pvt.util.HibernateUtil;
+
+/**
+ * @author alve
+ */
 public class UserTest {
 
-        Session session;
+    Session session;
 
     @Before
     public void setUp() throws Exception {
         session = HibernateUtil.getInstance().getTestSession();
-
     }
 
-
     @Test
-    public void createInstance(){
+    public void createInstance() {
         User user = new User();
         user.setUserName("User");
-        user.setEmail("Logo@gmail.com");
-
+        user.setUserEmail("mail@mail.ru");
 
         UserDetails userDetails = new UserDetails();
-        userDetails.setPassword("1245");
-        userDetails.setLoginAttempts(5);
-        userDetails.setExpireDate(new Timestamp(System.currentTimeMillis()));
+        userDetails.setPassword("password");
+        userDetails.setLoginAttempts(3);
+        userDetails.setExpiredDate(new Timestamp(System.currentTimeMillis()));
 
         user.setUserDetails(userDetails);
         userDetails.setUser(user);
@@ -44,22 +42,17 @@ public class UserTest {
             session.getTransaction().commit();
             assertTrue(user.getId() > 0);
             assertTrue(userDetails.getId() > 0);
-            assertEquals(user.getId(), userDetails.getId());
+            assertTrue(user.getId() == userDetails.getId());
         } catch (Exception e) {
             e.printStackTrace();
-            session.getTransaction().rollback();
         }
-
     }
-
 
     @After
     public void tearDown() throws Exception {
-
-       if (session != null && session.isOpen()) {
-           session.close();
-           session = null;
-
-       }
+        if (session != null && session.isOpen()) {
+            session.close();
+            session = null;
+        }
     }
 }

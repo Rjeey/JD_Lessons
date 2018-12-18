@@ -1,15 +1,18 @@
 package by.pvt.dao;
 
+import java.io.Serializable;
 
-import by.pvt.pojo.Person;
-import by.pvt.util.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-import java.io.Serializable;
+import by.pvt.pojo.Person;
+import by.pvt.util.HibernateUtil;
 
+/**
+ *
+ */
 public class DaoImpl<T> {
 
     private Class<T> persistentClass;
@@ -35,7 +38,6 @@ public class DaoImpl<T> {
     public T saveOrUpdate(T t) {
         Session session = getSession();
         Transaction transaction = null;
-
         try {
             transaction = session.beginTransaction();
             session.saveOrUpdate(t);
@@ -45,7 +47,6 @@ public class DaoImpl<T> {
             if (transaction != null) {
                 transaction.rollback();
             }
-
         }
         return t;
     }
@@ -81,7 +82,6 @@ public class DaoImpl<T> {
             transaction.rollback();
             session.close();
         }
-
         return t;
     }
 
@@ -99,13 +99,12 @@ public class DaoImpl<T> {
             transaction.rollback();
             session.close();
         }
-
     }
+
 
     public void delete(Serializable id) {
         Session session = getSession();
         Transaction transaction = session.beginTransaction();
-
         try {
             T t = session.get(getPersistentClass(), id);
             session.delete(t);
@@ -116,4 +115,6 @@ public class DaoImpl<T> {
             session.close();
         }
     }
+
+
 }
