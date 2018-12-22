@@ -7,9 +7,7 @@ import org.junit.*;
 
 import by.pvt.util.HibernateUtil;
 
-/**
- * @author alve
- */
+
 public class AddressTest {
 
     Session session;
@@ -30,7 +28,7 @@ public class AddressTest {
             session.beginTransaction();
             session.saveOrUpdate(address);
             assertTrue(address.getId() > 0);
-            session.delete(address);
+            //session.delete(address);
             session.getTransaction().commit();
         } catch (Exception e) {
             e.printStackTrace();

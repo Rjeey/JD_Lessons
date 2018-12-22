@@ -7,20 +7,31 @@ import java.util.List;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 import org.apache.commons.lang3.builder.ToStringBuilder;
+import org.hibernate.annotations.GenericGenerator;
 
-/**
- *
- */
+import javax.persistence.*;
+
+@Entity(name = "person")
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+@DiscriminatorColumn(name = "type", discriminatorType = DiscriminatorType.STRING)
 public class Person implements Serializable {
 
     private static final long serialVersionUID = -1781191857792849355L;
 
+    @Id
+    @GeneratedValue(generator="system-uuid")
+    @GenericGenerator(name = "system-uuid", strategy = "uuid")
+    @Column(name = "id")
     private String id;
+    @Column
     private String name;
+    @Column
     private String secondName;
+    @Column
     private int age;
+    @Column
     private Date dateOfBirth;
-
+    @ManyToOne(cascade = CascadeType.ALL)
     private Address address;
 
     public List<String> getTitles() {

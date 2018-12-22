@@ -1,12 +1,17 @@
 package by.pvt.pojo;
 
-/**
- *
- */
-public class Student extends Person {
+import javax.persistence.Column;
+import javax.persistence.DiscriminatorValue;
+import javax.persistence.Entity;
 
+@Entity
+@DiscriminatorValue("s")
+public class Student extends Person {
+    @Column
     private String university;
+    @Column
     private String faculty;
+    @Column
     private short courseYear;
 
     public String getUniversity() {

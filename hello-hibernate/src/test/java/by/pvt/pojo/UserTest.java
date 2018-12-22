@@ -9,9 +9,7 @@ import org.junit.*;
 
 import by.pvt.util.HibernateUtil;
 
-/**
- * @author alve
- */
+
 public class UserTest {
 
     Session session;

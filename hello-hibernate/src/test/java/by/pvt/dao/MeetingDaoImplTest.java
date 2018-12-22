@@ -60,6 +60,8 @@ public class MeetingDaoImplTest {
         meeting2.setAttendees(Set.of(employee1, employee2, employee3, employee4));
         meetingDao.saveOrUpdate(meeting2);
         assertTrue(meeting2.getId() == 2L);
+        //mappedBy doesn't work because  we save employee first and then we save meetings
+        // and because employee doesn't understand with them he needs to joined.
     }
 
     @Test

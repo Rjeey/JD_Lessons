@@ -18,13 +18,16 @@ public class HibernateUtil {
     private static HibernateUtil hibernateUtil;
 
     private HibernateUtil() {
-        sessionFactory = new Configuration()
-                .configure()
-                .buildSessionFactory();
 
         testSessionFactory = new Configuration()
                 .configure("test.hibernate.cfg.xml")
                 .buildSessionFactory();
+
+        sessionFactory = new Configuration()
+                .configure()
+                .buildSessionFactory();
+
+
     }
 
     public static HibernateUtil getInstance() {

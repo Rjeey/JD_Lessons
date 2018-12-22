@@ -2,19 +2,32 @@ package by.pvt.pojo;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
+import javax.persistence.*;
+
 /**
  *
  */
+@Entity
+@Embeddable
 public class Address {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
+    @Column
     private String country;
+    @Column
     private String city;
+    @Column
     private String street;
+    @Column
     private Integer zip;
+    @Column
     private String houseNumber;
+    @Column
     private int appartmentNumber;
+    @Column
     private String officeNumber;
 
     public Address() {

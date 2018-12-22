@@ -1,13 +1,19 @@
 package by.pvt.pojo;
 
-/**
- *
- */
+import javax.persistence.Column;
+import javax.persistence.Embeddable;
+import javax.persistence.Entity;
+import javax.persistence.PrimaryKeyJoinColumn;
+
+@Entity
 public class Branch extends Company {
-
+    @Column
     private String branchName;
-
+    @Column
     private String branchDirector;
+
+    public Branch() {
+    }
 
     public String getBranchName() {
         return branchName;

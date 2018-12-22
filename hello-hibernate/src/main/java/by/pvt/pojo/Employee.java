@@ -1,19 +1,27 @@
 package by.pvt.pojo;
 
+import javax.persistence.*;
 import java.util.Set;
 
-/**
- *
- */
+@Entity
 public class Employee {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
+    @Column
     private String firstName;
+    @Column
     private String lastName;
     private String cellPhone;
+    @ManyToOne(cascade = CascadeType.ALL)
     private Department department;
+    @OneToOne(cascade = CascadeType.ALL)
     private EmployeeDetails employeeDetails;
-
+    @ManyToMany( mappedBy = "attendees" ,cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JoinTable(name = "employee_meeting",
+            joinColumns = {@JoinColumn(name = "employee")},
+            inverseJoinColumns = {@JoinColumn(name = "meeting")})
     private Set<Meeting> meetings;
 
     public Set<Meeting> getMeetings() {

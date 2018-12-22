@@ -99,6 +99,7 @@ public class EmployeeDaoImplTest {
 
     @Test
     public void step2_updateEmployees() {
+
         assertTrue(true);
     }
 

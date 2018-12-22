@@ -7,9 +7,7 @@ import org.junit.*;
 
 import by.pvt.util.HibernateUtil;
 
-/**
- * @author alve
- */
+
 public class BranchTest {
 
     Session session;

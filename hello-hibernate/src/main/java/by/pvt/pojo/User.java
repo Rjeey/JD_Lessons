@@ -1,16 +1,17 @@
 package by.pvt.pojo;
 
-/**
- *
- */
+import javax.persistence.*;
+
+@Entity
 public class User {
-
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
-
+    @Column
     private String userName;
-
+    @Column
     private String userEmail;
-
+    @OneToOne(cascade = CascadeType.ALL)
     private UserDetails userDetails;
 
     public long getId() {

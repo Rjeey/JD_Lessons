@@ -1,5 +1,303 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/Person.java" line="35" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f8f0241b-aa21-4121-aad9-1d2f435e8607" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Branch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Branch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/pojo/EmployeeDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/pojo/EmployeeDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Employer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Employer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Headquarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Headquarter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Meeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Meeting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/pojo/UserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/pojo/UserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/util/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/util/HibernateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/test.hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/test.hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/pvt/dao/EmployeeDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/pvt/dao/EmployeeDaoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/pvt/dao/MeetingDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/pvt/dao/MeetingDaoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/pvt/pojo/AddressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/pvt/pojo/AddressTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/pvt/pojo/BranchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/pvt/pojo/BranchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/pvt/pojo/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/pvt/pojo/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/pvt/pojo/WorkerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/pvt/pojo/WorkerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test.hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test.hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by/pvt/dao/EmployeeDaoImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/by/pvt/dao/EmployeeDaoImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by/pvt/pojo/AddressTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/by/pvt/pojo/AddressTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by/pvt/pojo/BranchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/by/pvt/pojo/BranchTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by/pvt/pojo/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/by/pvt/pojo/UserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by/pvt/pojo/WorkerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/by/pvt/pojo/WorkerTest.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-492739243">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.51" value="1" />
+          <entry key="project.open.time.60" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="0-SNAPSHOT" value="1" />
+          <entry key="class" value="3" />
+          <entry key="java" value="86" />
+          <entry key="xml" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="3" />
+          <entry key="JAVA" value="86" />
+          <entry key="UML" value="1" />
+          <entry key="XML" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="8" />
+          <entry key="java" value="2660" />
+          <entry key="xml" value="198" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2660" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="XML" value="198" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/test.hibernate.cfg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/dao/MeetingDaoImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="63" column="80" lean-forward="true" selection-start-line="63" selection-start-column="80" selection-end-line="63" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/Meeting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+              <folding>
+                <element signature="e#524#525#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/annotation/ApplicantResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/annotation/Profession.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="17" column="70" lean-forward="true" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/annotation/Subject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/pojo/annotation/ApplicantTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/UserDetails.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/Employer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/Worker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/by/pvt/dao/EmployeeDaoImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/pvt/pojo/WorkerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/pvt/annotation/MyAnnon.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/pvt/annotation/TestData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/pvt/annotation/pojo/Person.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/by/pvt/pojo/AddressTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/pvt/util/HibernateUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/by/pvt/pojo/BranchTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Address.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/pvt/pojo/UserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/pvt/pojo/annotation/Applicant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/pvt/pojo/annotation/ApplicantResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/pvt/pojo/annotation/Subject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/pvt/pojo/annotation/Profession.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/pvt/pojo/annotation/ApplicantResultTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/pvt/pojo/annotation/SubjectTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/pvt/pojo/annotation/ProfessionTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/pvt/pojo/annotation/ApplicantTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Company.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Branch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Headquarter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Department.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/pvt/pojo/EmployeeDetails.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Employer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Worker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/pvt/pojo/User.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/test.hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/by/pvt/pojo/UserDetails.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Meeting.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/pvt/dao/MeetingDaoImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Employee.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -7,6 +305,22 @@
         <option name="userSettingsFile" value="D:\Game\IDEA\IntelliJ IDEA 2018.2.6\plugins\maven\lib\apache-maven-3.6.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hello-hibernate" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="MavenRunner">
     <option name="environmentProperties">
@@ -21,18 +335,886 @@
     <option name="width" value="736" />
     <option name="height" value="768" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hello-hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-hibernate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="pvt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="pvt" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="pvt" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="pvt" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="pvt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="pvt" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="pvt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="pvt" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="pvt" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="pvt" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545394311229" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="by.pvt.pojo.annotation" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.MeetingDaoImplTest.step1_createInstance">
+    <configuration name="ApplicantTest.createInstance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.pvt.pojo.annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.pvt.pojo.annotation" />
+      <option name="MAIN_CLASS_NAME" value="by.pvt.pojo.annotation.ApplicantTest" />
+      <option name="METHOD_NAME" value="createInstance" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompanyDaoImplTest.step1_saveOrUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.pvt.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.pvt.dao" />
+      <option name="MAIN_CLASS_NAME" value="by.pvt.dao.CompanyDaoImplTest" />
+      <option name="METHOD_NAME" value="step1_saveOrUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MeetingDaoImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.pvt.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.pvt.dao" />
+      <option name="MAIN_CLASS_NAME" value="by.pvt.dao.MeetingDaoImplTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MeetingDaoImplTest.step1_createInstance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.pvt.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.pvt.dao" />
+      <option name="MAIN_CLASS_NAME" value="by.pvt.dao.MeetingDaoImplTest" />
+      <option name="METHOD_NAME" value="step1_createInstance" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest.createInstance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.pvt.pojo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.pvt.pojo" />
+      <option name="MAIN_CLASS_NAME" value="by.pvt.pojo.UserTest" />
+      <option name="METHOD_NAME" value="createInstance" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.CompanyDaoImplTest.step1_saveOrUpdate" />
+      <item itemvalue="JUnit.UserTest.createInstance" />
+      <item itemvalue="JUnit.ApplicantTest.createInstance" />
+      <item itemvalue="JUnit.MeetingDaoImplTest" />
+      <item itemvalue="JUnit.MeetingDaoImplTest.step1_createInstance" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MeetingDaoImplTest.step1_createInstance" />
+        <item itemvalue="JUnit.ApplicantTest.createInstance" />
+        <item itemvalue="JUnit.MeetingDaoImplTest" />
+        <item itemvalue="JUnit.CompanyDaoImplTest.step1_saveOrUpdate" />
+        <item itemvalue="JUnit.UserTest.createInstance" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8f0241b-aa21-4121-aad9-1d2f435e8607" name="Default Changelist" comment="" />
+      <created>1545137315164</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545137315164</updated>
+      <workItem from="1545137316401" duration="175000" />
+      <workItem from="1545145739759" duration="7746000" />
+      <workItem from="1545222991188" duration="12357000" />
+      <workItem from="1545308652506" duration="14603000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MeetingDaoImplTest_step1_createInstance - 2018.12.20 at 19h 23m 51s.xml">
+      <configuration name="MeetingDaoImplTest.step1_createInstance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MeetingDaoImplTest_step1_createInstance - 2018.12.20 at 19h 28m 04s.xml">
+      <configuration name="MeetingDaoImplTest.step1_createInstance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MeetingDaoImplTest_step1_createInstance - 2018.12.20 at 20h 09m 30s.xml">
+      <configuration name="MeetingDaoImplTest.step1_createInstance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MeetingDaoImplTest_step1_createInstance - 2018.12.20 at 20h 11m 15s.xml">
+      <configuration name="MeetingDaoImplTest.step1_createInstance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MeetingDaoImplTest_step1_createInstance - 2018.12.20 at 20h 11m 37s.xml">
+      <configuration name="MeetingDaoImplTest.step1_createInstance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MeetingDaoImplTest_step1_createInstance - 2018.12.20 at 20h 12m 53s.xml">
+      <configuration name="MeetingDaoImplTest.step1_createInstance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MeetingDaoImplTest_step1_createInstance - 2018.12.21 at 14h 46m 09s.xml">
+      <configuration name="MeetingDaoImplTest.step1_createInstance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MeetingDaoImplTest_step1_createInstance - 2018.12.21 at 14h 48m 06s.xml">
+      <configuration name="MeetingDaoImplTest.step1_createInstance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MeetingDaoImplTest_step1_createInstance - 2018.12.21 at 14h 50m 49s.xml">
+      <configuration name="MeetingDaoImplTest.step1_createInstance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MeetingDaoImplTest_step1_createInstance - 2018.12.21 at 14h 53m 02s.xml">
+      <configuration name="MeetingDaoImplTest.step1_createInstance" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="34881000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="DB Browser" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Learn" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45846155" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4876923" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="DB Execution Console" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3276923" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/annotation/TestData.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/dao/EmployeeDaoImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar!/javax/persistence/Column.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar!/javax/persistence/MapKeyColumn.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.3.7.Final/hibernate-core-5.3.7.Final.jar!/org/hibernate/cfg/annotations/MapKeyColumnDelegator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/by.pvt:hello-hibernate:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>by.pvt:hello-hibernate:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">by.pvt:hello-hibernate:1.0-SNAPSHOT</node>
+            <node x="" y="">org.apache.commons:commons-lang3:jar:3.8.1</node>
+            <node x="" y="">junit:junit:jar:4.12</node>
+            <node x="" y="">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.7.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.7.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.7.Final/javax.persistence:javax.persistence-api:jar:2.2</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.7.Final/org.javassist:javassist:jar:3.23.1-GA</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.7.Final/net.bytebuddy:byte-buddy:jar:1.8.17</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.7.Final/antlr:antlr:jar:2.7.7</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.7.Final/org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.1.1.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.7.Final/org.jboss:jandex:jar:2.0.5.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.7.Final/com.fasterxml:classmate:jar:1.3.4</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.7.Final/javax.activation:javax.activation-api:jar:1.2.0</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.7.Final/org.dom4j:dom4j:jar:2.1.1</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.7.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.4.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.7.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.4.Final/org.jboss.logging:jboss-logging:jar:3.3.1.Final</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:5.1.47</node>
+            <node x="" y="">javax.xml.bind:jaxb-api:jar:2.2.11</node>
+            <node x="" y="">com.sun.xml.bind:jaxb-core:jar:2.2.11</node>
+            <node x="" y="">com.sun.xml.bind:jaxb-impl:jar:2.2.11</node>
+            <node x="" y="">javax.activation:activation:jar:1.1.1</node>
+            <node x="" y="">org.jetbrains:annotations:jar:16.0.3</node>
+            <node x="" y="">org.hibernate:hibernate-entitymanager:jar:5.3.7.Final</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9760364004044488" x="657.0" y="218.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/annotation/pojo/Person.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/by/pvt/pojo/Address.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="16" column="57" lean-forward="true" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/util/HibernateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/pojo/AddressTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="63" lean-forward="true" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/pojo/WorkerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/by/pvt/pojo/Department.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/by/pvt/pojo/Employee.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/pojo/HeadquarterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/by/pvt/pojo/Company.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/by/pvt/pojo/Person.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-368" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/pojo/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/by/pvt/pojo/UserDetails.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/pojo/BranchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/by/pvt/pojo/User.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/pojo/annotation/ProfessionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/annotation/Applicant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+            <element signature="e#1080#1081#0" expanded="true" />
+            <element signature="e#1111#1112#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
+            <element signature="e#1199#1200#0" expanded="true" />
+            <element signature="e#1236#1237#0" expanded="true" />
+            <element signature="e#1269#1270#0" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
+            <element signature="e#1365#1366#0" expanded="true" />
+            <element signature="e#1401#1402#0" expanded="true" />
+            <element signature="e#1436#1437#0" expanded="true" />
+            <element signature="e#1489#1490#0" expanded="true" />
+            <element signature="e#1537#1538#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/dao/CompanyDaoImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/Employer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/Branch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/EmployeeDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/Headquarter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test.hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/UserDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/annotation/ApplicantResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/pojo/annotation/ApplicantResultTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/pojo/annotation/ApplicantTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/pojo/annotation/SubjectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/annotation/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/annotation/Profession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="17" column="70" lean-forward="true" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/dao/MeetingDaoImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="63" column="80" lean-forward="true" selection-start-line="63" selection-start-column="80" selection-end-line="63" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/Meeting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>hello-hibernate</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

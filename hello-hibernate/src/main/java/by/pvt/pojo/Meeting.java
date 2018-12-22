@@ -1,23 +1,27 @@
 package by.pvt.pojo;
 
+import javax.persistence.*;
 import java.util.Date;
 import java.util.Set;
 
-/**
- *
- */
+@Entity
 public class Meeting {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
-
+    @Column
     private String subject;
-
+    @OneToOne
     private Employee organizer;
-
-    private Set attendees;
-
+    @ManyToMany(cascade = CascadeType.ALL , fetch = FetchType.LAZY)
+    @JoinTable(name = "employee_meeting",
+            joinColumns = {@JoinColumn(name = "employee")},
+            inverseJoinColumns = {@JoinColumn(name = "meeting")})
+    private Set <Employee> attendees;
+    @Column
     private Date dateTime;
-
+    @Column
     private Status status;
 
     public Date getDateTime() {
